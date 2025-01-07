@@ -22,10 +22,16 @@ footer {
         display: flex;
         flex-direction: column;
         
+        & span {
+            text-align: center;
+        }
+
         & #links {
             display: flex;
             flex-direction: column;
             padding-block: 0.5rem;
+            text-align: center;
         }
+
     }
 }
