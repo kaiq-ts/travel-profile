@@ -19,3 +19,22 @@ nav ul li:last-child img {
     height: 2.5rem;
     object-fit: cover;
 }
+
+@media (width <= 37.5rem) {
+    nav {
+        display: flex;
+        flex-direction: column;
+
+        & ul {
+            margin-top: 0.5rem;
+        }
+    }
+
+    nav ul li:last-child {
+        display: none;
+    }
+
+    nav ul li:last-child img {
+        display: none;
+    }
+}
