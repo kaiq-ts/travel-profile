@@ -3,13 +3,13 @@ footer {
     justify-content: space-between;
 
     span {
-        padding-block: 1.5rem;
+        padding-block: 24px;
     }
 
     #links {
         display: flex;
-        gap: 1.25rem;
-        padding-block: 1.5rem;
+        gap: 20px;
+        padding-block: 24px;
     }
 
     #links a {
@@ -17,7 +17,7 @@ footer {
     }
 }
 
-@media (width <= 37.5rem) {
+@media (width <= 600px) {
     footer {
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@ footer {
         & #links {
             display: flex;
             flex-direction: column;
-            padding-block: 0.5rem;
+            padding-block: 8px;
             text-align: center;
         }
 

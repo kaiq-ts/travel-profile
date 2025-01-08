@@ -1,5 +1,5 @@
 header {
-    padding-block: 2rem;
+    padding-block: 32px;
     font: var(--text-md);
 }
 
@@ -12,46 +12,46 @@ header .container {
 #profile {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 32px;
 }
 
 #profile > div {
-    max-width: 24rem;
+    max-width: 384px;
 }
 
 #profile h1 {
     font: var(--text-lg);
     color: var(text-color-primary);
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 #info {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    width: 17.5rem;
+    gap: 16px;
+    width: 280px;
 }
 
 #info li {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
-@media (width <= 56.25rem) {
+@media (width <= 900px) {
     header .container {
         display: flex;
         flex-direction: column;
         
         & ul {
             align-items: center;
-            margin-top: 1rem;
+            margin-top: 16px;
         }
     }
 }
 
-@media (width <= 40.625rem) {
+@media (width <= 650px) {
     #profile {
         display: flex;
         flex-direction: column;
