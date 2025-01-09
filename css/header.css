@@ -44,7 +44,6 @@ header .container {
         flex-direction: column;
         
         & ul {
-            align-items: center;
             margin-top: 16px;
         }
     }
